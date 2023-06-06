@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header{
+    background-image:url(https://static.thehoneycombers.com/wp-content/uploads/sites/2/2022/06/best-cafes-in-singapore.png);
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.navbar-1 ,.navbar-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+.small--text{
+    font-size: 20px;
+}
+.big--text{
+    font-size: 40px;
+}
+.logo{
+    font-size: 40px;
+    font-weight: bold;
+}
+.main-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 30px;
+}
+.primary-button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    background-color: transparent;
+    padding: 15px;
+    cursor: pointer;
+    border-color: black;
+    color: black;
+    transition: 0.5s;
+    font-size: 20px;
+    
+}
+.primary-button:hover{
+    background-color: peru;
+    color: black;
+    
+}
+.main{
+    display: flex;
+    margin: 40px;
+}
+.right{
+    
+    flex-direction: column;
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+   
+}
+.left{
+    
+    flex-basis: 50%;
+    justify-content: center;
+    align-items: center;
+    
+    
+   
+    
+}
+.signature{
+    margin: 40px;
+}
+.left--image{
+    width: 500px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    margin: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 10px;
+}
+.left--image:hover{
+    filter: brightness(75%);
+    scale: 1.1;
+}
+.m--40{
+    margin: 40px;
+}
+
+    
+
